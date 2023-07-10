@@ -163,3 +163,5 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
     console.log('serving on port 3000')
 })
+
+console.log(process.env.MAPBOX_TOKEN)
